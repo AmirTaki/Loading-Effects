@@ -40,7 +40,7 @@ span {
     text-transform: uppercase;
     letter-spacing: 1px;
     line-height: 200px;
-    animation: text 2s ease-in-out linear;
+    animation: text 2s ease-in-out infinite;
 }
 
 @keyframes ring {
@@ -56,5 +56,10 @@ span {
         transform:  rotate(360deg);
         box-shadow: 1px 5px 2px #0456c8;
     }
+}
 
+@keyframes text {
+    50%{
+        color: black;
+    }
 }
