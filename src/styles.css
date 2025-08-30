@@ -40,6 +40,7 @@ span {
     text-transform: uppercase;
     letter-spacing: 1px;
     line-height: 200px;
+    animation: text 2s ease-in-out linear;
 }
 
 @keyframes ring {
