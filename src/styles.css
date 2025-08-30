@@ -21,3 +21,12 @@ body {
     border-radius: 50%;
     background-color: red;
 }
+
+.ring::before{
+    position: absolute;
+    content: '';
+    left :0;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 5px rgba(255, 255, 255,.3);
+}
