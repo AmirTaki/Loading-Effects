@@ -41,3 +41,10 @@ span {
     letter-spacing: 1px;
     line-height: 200px;
 }
+
+@keyframes ring {
+    0%{
+        transform:  rotate(0deg);
+        box-shadow: 1px 5px 2px #e65c00;
+    }
+}
